@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "72093d1f-a8bd-46fd-9a54-1b992e8f31bd": {
+      "ProjectGuid": "72093d1f-a8bd-46fd-9a54-1b992e8f31bd",
+      "DisplayName": "CursoDesignPatterns",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

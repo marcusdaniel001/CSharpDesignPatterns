@@ -1,0 +1,15 @@
+C:\Projetos\CSharpDesignPatterns\CursoDesignPatterns\bin\Debug\net6.0\CursoDesignPatterns.exe
+C:\Projetos\CSharpDesignPatterns\CursoDesignPatterns\bin\Debug\net6.0\CursoDesignPatterns.deps.json
+C:\Projetos\CSharpDesignPatterns\CursoDesignPatterns\bin\Debug\net6.0\CursoDesignPatterns.runtimeconfig.json
+C:\Projetos\CSharpDesignPatterns\CursoDesignPatterns\bin\Debug\net6.0\CursoDesignPatterns.dll
+C:\Projetos\CSharpDesignPatterns\CursoDesignPatterns\bin\Debug\net6.0\ref\CursoDesignPatterns.dll
+C:\Projetos\CSharpDesignPatterns\CursoDesignPatterns\bin\Debug\net6.0\CursoDesignPatterns.pdb
+C:\Projetos\CSharpDesignPatterns\CursoDesignPatterns\obj\Debug\net6.0\CursoDesignPatterns.csproj.AssemblyReference.cache
+C:\Projetos\CSharpDesignPatterns\CursoDesignPatterns\obj\Debug\net6.0\CursoDesignPatterns.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\CSharpDesignPatterns\CursoDesignPatterns\obj\Debug\net6.0\CursoDesignPatterns.AssemblyInfoInputs.cache
+C:\Projetos\CSharpDesignPatterns\CursoDesignPatterns\obj\Debug\net6.0\CursoDesignPatterns.AssemblyInfo.cs
+C:\Projetos\CSharpDesignPatterns\CursoDesignPatterns\obj\Debug\net6.0\CursoDesignPatterns.csproj.CoreCompileInputs.cache
+C:\Projetos\CSharpDesignPatterns\CursoDesignPatterns\obj\Debug\net6.0\CursoDesignPatterns.dll
+C:\Projetos\CSharpDesignPatterns\CursoDesignPatterns\obj\Debug\net6.0\ref\CursoDesignPatterns.dll
+C:\Projetos\CSharpDesignPatterns\CursoDesignPatterns\obj\Debug\net6.0\CursoDesignPatterns.pdb
+C:\Projetos\CSharpDesignPatterns\CursoDesignPatterns\obj\Debug\net6.0\CursoDesignPatterns.genruntimeconfig.cache
