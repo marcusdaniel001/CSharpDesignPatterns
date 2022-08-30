@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using CursoDesignPatterns;
+using CursoDesignPatterns.AppBancarioChainOfResponsibility;
 using CursoDesignPatterns.Descontos;
 using CursoDesignPatterns.Impostos;
 using CursoDesignPatterns.Investimentos;
@@ -38,3 +39,11 @@ orcamento.AdicionaItem(new Item("Lapis", 500));
 
 double desconto = calculaDesconto.Calcula(orcamento);
 Console.WriteLine($"Desconto - {desconto}");
+
+
+var conta = new Conta("ze",800);
+var requisicao = new Requisicao(FormatoEnum.XML);
+
+MontaCadeiaRequisicao MontaCadeiaRequisicao = new();
+var formato = MontaCadeiaRequisicao.RetornaFormato(requisicao, conta);
+Console.WriteLine($"Formato - {formato}");
