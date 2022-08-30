@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using CursoDesignPatterns;
+using CursoDesignPatterns.Descontos;
 using CursoDesignPatterns.Impostos;
 using CursoDesignPatterns.Investimentos;
 
@@ -7,7 +8,7 @@ Imposto iss = new ISS();
 Imposto icms = new ICMS();
 Imposto iccc = new ICCC();
 
-Orcamento orcamento = new(3001.0);
+Orcamento orcamento = new(3000);
 
 CalculadorDeImpostos calculador = new();
 
@@ -28,3 +29,16 @@ CalculadorDeRendimentos calculadorDeRendimentos = new();
 calculadorDeRendimentos.CalculaRendimento(contaBancaria, conservador);
 calculadorDeRendimentos.CalculaRendimento(contaBancaria, moderado);
 calculadorDeRendimentos.CalculaRendimento(contaBancaria, arrojado);
+
+
+CalculadorDeDescontos calculaDesconto = new CalculadorDeDescontos();
+
+orcamento.AdicionaItem(new Item("Caneta", 500));
+orcamento.AdicionaItem(new Item("Lapis", 500));
+orcamento.AdicionaItem(new Item("Geladeira", 500));
+orcamento.AdicionaItem(new Item("Chupetinha", 500));
+orcamento.AdicionaItem(new Item("Letra", 500));
+orcamento.AdicionaItem(new Item("Lapis", 500));
+
+double desconto = calculaDesconto.Calcula(orcamento);
+Console.WriteLine($"Desconto - {desconto}");
