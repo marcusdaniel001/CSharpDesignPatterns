@@ -10,11 +10,15 @@ namespace CursoDesignPatterns.AppBancarioChainOfResponsibility
     {
         public double Saldo { get; private set; }
         public string NomeTitular { get; private set; }
+        public string Agencia { get; private set; }
+        public string NumeroConta { get; private set; }
 
-        public Conta(string nomeTitular, double saldo)
+        public Conta(string nomeTitular, double saldo, string agencia, string numeroConta)
         {
             Saldo = saldo;
             NomeTitular = nomeTitular;
+            Agencia = agencia;
+            NumeroConta = numeroConta;
         }
     }
 }
